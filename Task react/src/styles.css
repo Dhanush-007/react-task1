@@ -1,0 +1,132 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+section {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+section header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cadetblue;
+  font-size: 15px;
+}
+section header ul li select {
+  border: none;
+  color: cadetblue;
+  font-size: 18px;
+}
+section header ul li {
+  list-style: none;
+  margin-left: 18px;
+}
+.top .row1 {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+section .authentication {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: #1b3a57;
+  font-size: 18px;
+}
+section .authentication img {
+  cursor: pointer;
+}
+.topnav {
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid rgb(45, 138, 245);
+}
+
+.topnav a.active {
+  border-bottom: 3px solid rgb(45, 138, 245);
+}
+form {
+  position: relative;
+  width: calc(100%-100px);
+  min-height: calc(100vh-280px);
+  padding-bottom: 10px;
+  background: #fafafa;
+}
+
+form .card .card-header .adduser ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+form .card .card-header .adduser ul input {
+  position: relative;
+  width: 75%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+form .card .card-header .adduser ul li {
+  display: flex;
+  margin: 5px;
+  list-style: none;
+  margin-left: 10px;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-top: 20px;
+}
+form .card .card-header .adduser ul li button {
+  background: #4584ef;
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form .card .card-header .identifi ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 130px;
+  justify-content: space-evenly;
+}
+form .card .card-header .identifi ul li {
+  display: flex;
+  margin: 5px;
+  list-style: none;
+  margin-left: 10px;
+  justify-content: flex-start;
+  cursor: pointer;
+  color: cadetblue;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+form .card .card-body .card-text {
+  text-align: center;
+  padding: 60px;
+}
